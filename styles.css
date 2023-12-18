@@ -1,0 +1,43 @@
+/* styles.css */
+/*body {
+    width:50%;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+*/
+
+.div-body {
+    width:50%;
+    margin: 0 auto;
+    background-color: lightcyan;
+    padding: 25px 50px 25px 50px;
+}
+
+.header-image {
+    height: auto;
+    width: 300px;
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+p, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+button {
+    border: none;
+    padding: 15px 32px;
+    /* text-align: left; */
+    /* padding-left: 10px; */
+}
+
+.button-primary
+{
+    background-color: teal;
+    color: white;
+}
