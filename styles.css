@@ -6,16 +6,124 @@
 }
 */
 
-.div-body {
-    width:50%;
+body {
+    width:80%;
     margin: 0 auto;
-    background-color: lightcyan;
     padding: 25px 50px 25px 50px;
 }
+
+h1 {
+    font-size: 58px;
+}
+
+.hero-image {
+    background:linear-gradient(0deg, rgba(60, 60, 60, 0.65), rgba(157, 157, 157, 0.039)), url('banner.jpg');
+    background-size: cover;
+    height: 350px;
+    padding: 50px;
+    margin-bottom: 50px;
+
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+}
+
+.section-intro {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-container {
+    display: flex;
+    height: 350px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-container > div {
+    /* background-color: black; */
+    position: relative;
+    flex: 1 0 200px;
+    padding: 40px;
+}
+
+.gallery-cover-image {
+    border-radius: 5px;
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+.gallery-cover-image:hover {
+    opacity: 0.3;
+}
+
+.gallery-cover-image-link { 
+/** Make cover link centre **/
+    display: grid;
+    align-items: center;
+    text-align: center;
+/** Make cover link centre **/
+    background-color: #3aa690;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: 350px;
+    width: 224px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.gallery-cover-image-link a:visited, 
+.gallery-cover-image-link a:link { 
+    color: white;
+    text-decoration: none;
+}
+
+.gallery-cover-image-link a:hover, 
+.gallery-cover-image-link a:active { 
+    text-decoration: underline;
+}
+
+.gallery-cover-image-link:hover {
+    opacity: 0.7;
+}
+
+
+/* .gallery-cover-image-link-text {
+    text-decoration: none;
+}
+
+.gallery-cover-image-link-text:link .gallery-cover-image-link-text:visited .gallery-cover-image-link-text:active {
+    color: white;
+} */
 
 .header-image {
     height: auto;
     width: 300px;
+}
+
+.cover-image {
+    border-radius: 12px;
+    padding: 5px;
 }
 
 h1, h2 {
