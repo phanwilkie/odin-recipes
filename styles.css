@@ -56,13 +56,13 @@ h1 {
 }
 
 .gallery-cover-image {
-    border-radius: 5px;
     max-width: 100%;
     height: 100%;
     text-align: center;
     transition: .5s ease;
     backface-visibility: hidden;
     opacity: 1;
+    object-fit: cover;
 }
 
 .gallery-cover-image:hover {
@@ -84,12 +84,11 @@ h1 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     height: 350px;
-    width: 224px;
+    width: 226px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
-
 }
 
 .gallery-cover-image-link a:visited, 
@@ -104,7 +103,7 @@ h1 {
 }
 
 .gallery-cover-image-link:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 
